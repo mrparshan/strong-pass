@@ -1,7 +1,7 @@
 import string
 import random
 import os
-os.system("clear")
+os.system("cls")
 class color:
     GREEN = '\033[92m'
     RED = '\033[91m'
@@ -49,4 +49,4 @@ while True:
 {white}""")
         break
     elif ask == "y":
-        os.system("clear")        
+        os.system("cls")        
