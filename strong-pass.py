@@ -25,7 +25,8 @@ while True:
 					╔═╗╦═╗╔═╗╔═╗╔╦╗╔═╗  ╔═╗╔╦╗╦═╗╔═╗╔╗╔╔═╗  ╔═╗╔═╗╔═╗╔═╗╦ ╦╔╦╗
 					║  ╠╦╝║╣ ╠═╣ ║ ║╣   ╚═╗ ║ ╠╦╝║ ║║║║║ ╦  ╠═╝╠═╣╚═╗╚═╗║║║ ║║
 					╚═╝╩╚═╚═╝╩ ╩ ╩ ╚═╝  ╚═╝ ╩ ╩╚═╚═╝╝╚╝╚═╝  ╩  ╩ ╩╚═╝╚═╝╚╩╝═╩╝					
-							   {bold} {blue}GITHUB: mrparshan{reset}			
+							   {bold} {blue}GITHUB: mrparshan
+							   {bold}{blue}VERSION: LINUX{reset}
 	{white}""")
     length = int(input(f"\n{white} [ + ] Enter your length password: {blue}"))
     print(color.WHITE)
