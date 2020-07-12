@@ -5,7 +5,8 @@ try:
    from win10toast import ToastNotifier
 except ImportError as e:
    install(["install","win10toast"])
-from win10toast import ToastNotifier
+from win10toast import  ToastNotifier
+from win10toast import ToastNotifier  
 n = ToastNotifier() 
 os.system("cls")
 class color:
@@ -46,6 +47,7 @@ while True:
         elif ask != "n" or ask != "y":
             print(color.RED , "\n [ERR] Sorry, Try again." , color.WHITE)
     if ask == "n":
+        
         print(f"""{white}
  
  +-+-+-+-+-+-+ +-+-+-+ +-+-+-+-+-+-+ +-+-+-+-+ +-+-+-+-+ 
@@ -53,7 +55,7 @@ while True:
  +-+-+-+-+-+-+ +-+-+-+ +-+-+-+-+-+-+ +-+-+-+-+ +-+-+-+-+ 
 
 {white}""")
-	n.show_toast("Thanks for trying this program!", "GITHUB: mrparshan", duration = 8)
+        n.show_toast("Thanks for trying this program!", "GITHUB: mrparshan", duration = 7)
         break
     elif ask == "y":
-        os.system("cls")        
+        os.system("cls")
