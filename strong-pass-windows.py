@@ -1,6 +1,12 @@
 import string
 import random
 import os
+try:
+   from win10toast import ToastNotifier
+except ImportError as e:
+   install(["install","win10toast"])
+from win10toast import ToastNotifier
+n = ToastNotifier() 
 os.system("cls")
 class color:
     GREEN = '\033[92m'
@@ -47,6 +53,7 @@ while True:
  +-+-+-+-+-+-+ +-+-+-+ +-+-+-+-+-+-+ +-+-+-+-+ +-+-+-+-+ 
 
 {white}""")
+	n.show_toast("Thanks for trying this program!", "GITHUB: mrparshan", duration = 8)
         break
     elif ask == "y":
         os.system("cls")        
